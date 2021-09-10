@@ -1,3 +1,5 @@
+bal = new Bal(50,50);
+
 var x = 50;
 var y = 50;
 
@@ -24,7 +26,7 @@ function setup() {
  */
 function draw() { 
   // stel vulkleur in
-  fill(162, 102, 227);
+  /*fill(162, 102, 227);
   background('black');
 
   // teken een cirkel
@@ -48,7 +50,10 @@ function draw() {
 
   if ( x === 1240) {
     speedX = speedX * -1;
-  }
+  }*/
+
+  bal.show();
+  bal.update();
 
 }
 

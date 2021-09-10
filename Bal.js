@@ -19,7 +19,7 @@ class Bal {
     }
 
     update() {
-        if (this.x <= 40 || this.x => 1280) {
+        if (this.x <= 40 || this.x >= 1280) {
             this.speedX = this.speedX * -1;
         }
 
